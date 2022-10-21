@@ -32,3 +32,4 @@
     - oc exec -h (execute command in container)
     - oc get projects
     - oc project \<project name\> (change projects)
+    - oc delete all --selector app=\<app name\> (clear out everything with specific label)
