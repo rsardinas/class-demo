@@ -27,3 +27,6 @@
 9. View route info
    - oc describe route
 10. Connect in browser
+11. Other commands to demonstrate
+    - oc edit \<resource\> (open resource file in editor)
+    - oc exec -h (execute command in container)
