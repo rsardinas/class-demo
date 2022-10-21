@@ -33,3 +33,5 @@
     - oc get projects
     - oc project \<project name\> (change projects)
     - oc delete all --selector app=\<app name\> (clear out everything with specific label)
+    - oc get builds (view all builds, including failed)
+    - oc logs build/\<app name-build number\>
