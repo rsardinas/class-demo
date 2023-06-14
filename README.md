@@ -2,6 +2,10 @@
 
 1. Launch app using github repo
    - oc new-app [--name \<optional name\>] \<git repo.git\>
+   - also:
+   -    oc new-app {image name} [... other options]
+   -    oc new-app --image={some registry} [... other options]
+   -    oc new-app --template={template name} [... other options]    
 2. Troubleshoot errors (private repo)
    - oc status
    - oc status --suggest
