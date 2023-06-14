@@ -1,4 +1,4 @@
-# Class Demo 1 (OpenShift Demo) for DO180-Auburn
+# Class OpenShift Demo for DO180-Auburn
 
 1. Launch app using github repo
    - oc new-app [--name \<optional name\>] \<git repo.git\>
